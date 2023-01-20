@@ -107,7 +107,7 @@ let litabs3 = document.querySelector(".litabs3")
 let litabs4 = document.querySelector(".litabs4")
 litabs1.addEventListener("click", () => {
     function getRepos() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             nameplant.innerHTML = `${data.destinations[0].name}`
@@ -122,7 +122,7 @@ litabs1.addEventListener("click", () => {
 
 litabs2.addEventListener("click", () => {
     function getRepos2() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             nameplant.innerHTML = `${data.destinations[1].name}`
@@ -137,7 +137,7 @@ litabs2.addEventListener("click", () => {
 
 litabs3.addEventListener("click", () => {
     function getRepos3() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             nameplant.innerHTML = `${data.destinations[2].name}`
@@ -152,7 +152,7 @@ litabs3.addEventListener("click", () => {
 
 litabs4.addEventListener("click", () => {
     function getRepos4() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             nameplant.innerHTML = `${data.destinations[3].name}`
@@ -198,7 +198,7 @@ let changpoint = document.querySelectorAll(".changpoint span");
 
 span1.addEventListener("click", () => {
     function getRepos() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             namecray.innerHTML = `${data.crew[0].name}`
@@ -212,7 +212,7 @@ span1.addEventListener("click", () => {
 
 span2.addEventListener("click", () => {
     function getRepos2() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             namecray.innerHTML = `${data.crew[1].name}`
@@ -226,7 +226,7 @@ span2.addEventListener("click", () => {
 
 span3.addEventListener("click", () => {
     function getRepos3() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             namecray.innerHTML = `${data.crew[2].name}`
@@ -240,7 +240,7 @@ span3.addEventListener("click", () => {
 
 span4.addEventListener("click", () => {
     function getRepos4() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             namecray.innerHTML = `${data.crew[3].name}`
@@ -270,7 +270,7 @@ spanslid.forEach(function (ele) {
 
 spanslid1.addEventListener("click", () => {
     function getRepos() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             nametech.innerHTML = `${data.technology[0].name}`
@@ -283,7 +283,7 @@ spanslid1.addEventListener("click", () => {
 
 spanslid2.addEventListener("click", () => {
     function getRepos2() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             nametech.innerHTML = `${data.technology[1].name}`
@@ -296,7 +296,7 @@ spanslid2.addEventListener("click", () => {
 
 spanslid3.addEventListener("click", () => {
     function getRepos3() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             nametech.innerHTML = `${data.technology[2].name}`
@@ -311,7 +311,7 @@ let spanslid20 = document.querySelector(".spanslid20")
 let spanslid30 = document.querySelector(".spanslid30")
 spanslid10.addEventListener("click", () => {
     function getRepos() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             nametech.innerHTML = `${data.technology[0].name}`
@@ -324,7 +324,7 @@ spanslid10.addEventListener("click", () => {
 
 spanslid20.addEventListener("click", () => {
     function getRepos2() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             nametech.innerHTML = `${data.technology[1].name}`
@@ -337,7 +337,7 @@ spanslid20.addEventListener("click", () => {
 
 spanslid30.addEventListener("click", () => {
     function getRepos3() {
-        fetch(`../addves/data.json`)
+        fetch(`https://cdn.jsdelivr.net/gh/abdelrahmangl2/file/data.json`)
         .then((repos) => repos.json())
         .then((data) => {
             nametech.innerHTML = `${data.technology[2].name}`
